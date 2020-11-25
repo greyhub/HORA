@@ -1,5 +1,8 @@
-HORA
+HORA - Mobile App & Data Science
 ==============================
+
+Welcome to OVN zone !
+We are from Facebook Developer Circle VietNam.
 
 A short description of the project.
 
