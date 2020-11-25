@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <meta name="Author" content="Made by 'tree'">
+ <meta name="GENERATOR" content="$Version: $ tree v1.8.0 (c) 1996 - 2018 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro $">
+ <title>Directory Tree</title>
+ <style type="text/css">
+  <!-- 
+  BODY { font-family : ariel, monospace, sans-serif; }
+  P { font-weight: normal; font-family : ariel, monospace, sans-serif; color: black; background-color: transparent;}
+  B { font-weight: normal; color: black; background-color: transparent;}
+  A:visited { font-weight : normal; text-decoration : none; background-color : transparent; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:link    { font-weight : normal; text-decoration : none; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:hover   { color : #000000; font-weight : normal; text-decoration : underline; background-color : yellow; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:active  { color : #000000; font-weight: normal; background-color : transparent; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  .VERSION { font-size: small; font-family : arial, sans-serif; }
+  .NORM  { color: black;  background-color: transparent;}
+  .FIFO  { color: purple; background-color: transparent;}
+  .CHAR  { color: yellow; background-color: transparent;}
+  .DIR   { color: blue;   background-color: transparent;}
+  .BLOCK { color: yellow; background-color: transparent;}
+  .LINK  { color: aqua;   background-color: transparent;}
+  .SOCK  { color: fuchsia;background-color: transparent;}
+  .EXEC  { color: green;  background-color: transparent;}
+  -->
+ </style>
+</head>
+<body>
+	<h1>Directory Tree</h1><p>
+	<a href="./">./</a><br>
+	├── <a href=".//data-science/">data-science</a><br>
+	│   ├── <a href=".//data-science/input/">input</a><br>
+	│   │   ├── <a href=".//data-science/input/cosine_hotel/">cosine_hotel</a><br>
+	│   │   ├── <a href=".//data-science/input/OTA/">OTA</a><br>
+	│   │   └── <a href=".//data-science/input/Tripi/">Tripi</a><br>
+	│   ├── <a href=".//data-science/output/">output</a><br>
+	│   │   ├── <a href=".//data-science/output/mapped_hotels/">mapped_hotels</a><br>
+	│   │   │   ├── <a href=".//data-science/output/mapped_hotels/hotel_detail/">hotel_detail</a><br>
+	│   │   │   └── <a href=".//data-science/output/mapped_hotels/hotel_with_domain/">hotel_with_domain</a><br>
+	│   │   └── <a href=".//data-science/output/suggested_hotels/">suggested_hotels</a><br>
+	│   │   &nbsp;&nbsp;&nbsp; ├── <a href=".//data-science/output/suggested_hotels/similar_hotels/">similar_hotels</a><br>
+	│   │   &nbsp;&nbsp;&nbsp; └── <a href=".//data-science/output/suggested_hotels/suggest_hotels/">suggest_hotels</a><br>
+	│   └── <a href=".//data-science/process/">process</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href=".//data-science/process/1_mapping/">1_mapping</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href=".//data-science/process/1_mapping/_11000_hotels/">_11000_hotels</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href=".//data-science/process/1_mapping/_18000_hotels/">_18000_hotels</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href=".//data-science/process/1_mapping/_4000_hotels/">_4000_hotels</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   └── <a href=".//data-science/process/1_mapping/_7000_hotels/">_7000_hotels</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href=".//data-science/process/2_merge/">2_merge</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href=".//data-science/process/3_handle_missing/">3_handle_missing</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href=".//data-science/process/3_handle_missing/book_num/">book_num</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href=".//data-science/process/3_handle_missing/click_num/">click_num</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href=".//data-science/process/3_handle_missing/isBooked/">isBooked</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href=".//data-science/process/3_handle_missing/isClicked/">isClicked</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href=".//data-science/process/3_handle_missing/overall_score/">overall_score</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   └── <a href=".//data-science/process/3_handle_missing/review_score/">review_score</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href=".//data-science/process/4_ranking/">4_ranking</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href=".//data-science/process/5_suggest/">5_suggest</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href=".//data-science/process/5_suggest/sentiment/">sentiment</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href=".//data-science/process/5_suggest/session_based/">session_based</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   └── <a href=".//data-science/process/5_suggest/similar_hotels/">similar_hotels</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href=".//data-science/process/models/">models</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href=".//data-science/process/notebooks/">notebooks</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href=".//data-science/process/references/">references</a><br>
+	│   &nbsp;&nbsp;&nbsp; └── <a href=".//data-science/process/reports/">reports</a><br>
+	│   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; └── <a href=".//data-science/process/reports/figures/">figures</a><br>
+	├── <a href=".//mobile-app/">mobile-app</a><br>
+	│   ├── <a href=".//mobile-app/app/">app</a><br>
+	│   │   ├── <a href=".//mobile-app/app/back-end/">back-end</a><br>
+	│   │   └── <a href=".//mobile-app/app/front-end/">front-end</a><br>
+	│   └── <a href=".//mobile-app/data/">data</a><br>
+	└── <a href=".//report/">report</a><br>
+	<br><br>
+	</p>
+	<p>
+
+42 directories
+	<br><br>
+	</p>
+	<hr>
+	<p class="VERSION">
+		 tree v1.8.0 © 1996 - 2018 by Steve Baker and Thomas Moore <br>
+		 HTML output hacked and copyleft © 1998 by Francesc Rocher <br>
+		 JSON output hacked and copyleft © 2014 by Florian Sesser <br>
+		 Charsets / OS/2 support © 2001 by Kyosuke Tokoro
+	</p>
+</body>
+</html>

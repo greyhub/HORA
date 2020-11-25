@@ -1,0 +1,5 @@
+➜  HORA-project tree -H ./ -L 1 > tree_deep_1.html
+➜  HORA-project tree -H ./ -L 2 > tree_deep_2.html
+➜  HORA-project tree -H ./ -L 3 > tree_deep_3.html
+➜  HORA-project tree -H ./ -L 4 > tree_deep_4.html
+
